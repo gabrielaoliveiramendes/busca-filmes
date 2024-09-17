@@ -89,13 +89,12 @@ input::placeholder {
 }
 
 .item-resultado a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #a5a5a5; /* Cor do texto dos links */
+    text-decoration: none;
+    color: #a5a5a5;
 }
 
-/* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    text-decoration: underline;
 }
 
 .descricao-meta {
