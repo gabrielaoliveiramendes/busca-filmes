@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+body {
+    font-family: "Marcellus", sans-serif;
+    background-color: #072438;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/Frantz\ Wehrlé\ restoration.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.pesquisa input {
+    width: 30rem; /* Largura dos inputs */
+    border: none;
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #5b5b5b53;
+}
+
+.pesquisa button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #5b5b5b53;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "Marcellus";
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #ffffff;
+    font-family: "Marcellus", sans-serif;
+  }
+
+.resultados-pesquisa {
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; 
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.item-resultado {
+    background: #5b5b5b53;
+    border-radius: 1rem; 
+    padding: 1rem;
+    margin-bottom: 1rem; 
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.item-resultado h3{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #a5a5a5; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.descricao-meta {
+    color: #ffffff;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffffffa6;
+    border-radius: 10px;
+  }
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem;
+}
+
+.nenhum-resultado{
+    text-align: center;
+    color: #ffffff;
+}
