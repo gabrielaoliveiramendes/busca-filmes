@@ -2,18 +2,13 @@
 
 ### Descrição
 
-Este projeto é um site web simples que permite aos usuários pesquisar por filmes de uma lista já criada, de forma rápida e fácil. Ao digitar um termo de busca, o site retorna uma filmes relevantes, com informações básicas e um link para mais detalhes.
+Este projeto é um site web simples que permite aos usuários pesquisar por filmes de uma lista já criada, de forma rápida e fácil. Ao digitar um termo de busca, o site retorna filmes relevantes, com informações básicas e um link para mais detalhes.
 
 ### Funcionalidades
 
 * Busca intuitiva: Pesquise por título, gênero, ator ou qualquer outra palavra-chave.
 * Resultados personalizados: Obtenha resultados relevantes com base na sua pesquisa.
 * Interface amigável: Navegue facilmente pelo site e encontre os filmes que você procura.
-
-### Tecnologias
-
-* Frontend: HTML, CSS, JavaScript
-* Backend: Nenhum (aplicação estática)
 
 ### Aprendizados
 * Separação de dados e lógica: Os dados da lista de filmes foram armazenados em um arquivo separado, facilitando a manutenção e a adição de novos filmes.
